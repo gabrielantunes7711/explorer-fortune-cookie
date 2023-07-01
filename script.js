@@ -24,9 +24,9 @@ function enterShortcut(event) {
 
   if (checkKeyEnter) {
     if (resultScreenClosed) {
-      console.log("abrir");
+      getMessage();
     } else if (mainScreenClosed) {
-      console.log("fechar");
+      toggleScreens();
     }
   }
 }
